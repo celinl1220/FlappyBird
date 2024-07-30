@@ -1,9 +1,9 @@
 :root {
 	--background-color: rgb(191, 209, 229);
-	--mainBackground-color: rgb(166, 189, 219);
+/*	--mainBackground-color: rgb(166, 189, 219);*/
 
 	--border-color: rgb(217, 229, 240);
-	--inputBorder-color: rgb(80, 133, 188);
+	/*--inputBorder-color: rgb(80, 133, 188);
 
 	--buttonBackground-color: rgb(104, 149, 197);
 	--buttonHoverBackground-color: rgb(166, 189, 219);
@@ -13,7 +13,7 @@
 
 	--headerText-color: rgb(8, 96, 168);
 	--inputText-color: rgb(45, 114, 178);
-	--regularText-color: rgb(80, 133, 188);
+	--regularText-color: rgb(80, 133, 188);*/
 }
 
 * {
@@ -21,7 +21,13 @@
 	text-align: center;
 }
 
+body {
+	background: var(--background-color);
+}
+
 #board {
 	background: skyblue;
+	border: 3px solid var(--border-color);
+	border-radius: 5%;
 /*	background-image: url("./flappybird.png");*/
 }
