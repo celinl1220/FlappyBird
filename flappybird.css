@@ -1,0 +1,27 @@
+:root {
+	--background-color: rgb(191, 209, 229);
+	--mainBackground-color: rgb(166, 189, 219);
+
+	--border-color: rgb(217, 229, 240);
+	--inputBorder-color: rgb(80, 133, 188);
+
+	--buttonBackground-color: rgb(104, 149, 197);
+	--buttonHoverBackground-color: rgb(166, 189, 219);
+	--buttonText-color: rgb(217, 229, 240);
+
+	--tileBackground-color: rgb(128, 166, 206);
+
+	--headerText-color: rgb(8, 96, 168);
+	--inputText-color: rgb(45, 114, 178);
+	--regularText-color: rgb(80, 133, 188);
+}
+
+* {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#board {
+	background: skyblue;
+/*	background-image: url("./flappybird.png");*/
+}
